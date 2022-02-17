@@ -1,0 +1,15 @@
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\bin\Debug\net6.0\SOLID.S.exe
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\bin\Debug\net6.0\SOLID.S.deps.json
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\bin\Debug\net6.0\SOLID.S.runtimeconfig.json
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\bin\Debug\net6.0\SOLID.S.dll
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\bin\Debug\net6.0\SOLID.S.pdb
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.csproj.AssemblyReference.cache
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.AssemblyInfoInputs.cache
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.AssemblyInfo.cs
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.csproj.CoreCompileInputs.cache
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.dll
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\refint\SOLID.S.dll
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.pdb
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\SOLID.S.genruntimeconfig.cache
+D:\Documentos\Proyectos\c#\SOLID\SOLID.S\obj\Debug\net6.0\ref\SOLID.S.dll
