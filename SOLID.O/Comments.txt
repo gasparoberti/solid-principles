@@ -1,0 +1,3 @@
+﻿Principio de Open Closed:
+
+Se centra en mantener el bajo acoplamiento. Las clases deberían estar abiertas para extender y cerradas para modificar. El comportamiento de una entidad debe poder ser alterado sin tener que modificar su código fuente (a menos que haya un bug).
