@@ -16,5 +16,10 @@ namespace SOLID.S
 
         public Producto Producto { get; set; }
         public int Cantidad { get; set; }
+
+        public double Subtotal()
+        {
+            return Producto.Precio * Cantidad;
+        }
     }
 }

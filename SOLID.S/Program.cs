@@ -20,7 +20,8 @@ namespace SOLID.S
             l.Add(i2);
             l.Add(i3);
 
-            Factura f = new Factura(21332, DateTime.Now, "Lopez", "Diego", l);
+            //Factura f = new Factura(21332, DateTime.Now, "Lopez", "Diego", l);
+            Factura f = new Factura(21332, DateTime.Now, new Cliente("Diego", "Lopez"), l);
 
             Console.WriteLine(f.Total());
 
