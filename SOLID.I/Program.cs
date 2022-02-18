@@ -11,6 +11,6 @@ facturaElectronica.Imprimir();
 facturaElectronica.EnviarPorEmail();
 
 factura.Imprimir();
-factura.EnviarPorEmail();   //no puede mandar emails
+//factura.EnviarPorEmail();   //no puede mandar emails
 
 Console.ReadKey();

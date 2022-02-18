@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.I
 {
-    public class FacturaElectronica : Documento
+    public class FacturaElectronica : Documento, IEmaileable
     {
         public FacturaElectronica(DateTime fecha, int numero) : base(fecha, numero)
         {
@@ -14,10 +14,15 @@ namespace SOLID.I
 
         public string CAE { get; set; }
 
-        public override void EnviarPorEmail()
+        public void EnviarPorEmail()
         {
             Console.WriteLine($"Enviando por email la factura electrónica {Numero} de la fecha {Fecha.ToShortDateString()}");
         }
+
+        //public override void EnviarPorEmail()
+        //{
+        //    Console.WriteLine($"Enviando por email la factura electrónica {Numero} de la fecha {Fecha.ToShortDateString()}");
+        //}
 
         public override void Imprimir()
         {

@@ -1,3 +1,5 @@
 ﻿Principio de segregación de interfaces:
 
 Los clientes no deben estar forzados a implementar interfaces que no usan. Se relaciona con la cohesión de las aplicaciones. 
+
+En vez de heredar y que se hereden justamente funcionalidades que no se utilizan creamos interfaces que sean utilizadas por quienes las necesitan realmente. En el caso del ejemplo los documentos que son imprimibles extienden de IImprimible y solo las facturas electrónicas extienden de IEmaileable.

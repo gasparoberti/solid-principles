@@ -14,10 +14,10 @@ namespace SOLID.I
 
         public string CAI { get; set; }
 
-        public override void EnviarPorEmail()
-        {
-            //no se puede enviar por email porque es impresa
-        }
+        //public override void EnviarPorEmail()
+        //{
+        //    //no se puede enviar por email porque es impresa
+        //}
 
         public override void Imprimir()
         {

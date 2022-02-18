@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.I
 {
-    public abstract class Documento
+    public abstract class Documento : IImprimible
     {
         public Documento(DateTime fecha, int numero)
         {
@@ -16,7 +16,9 @@ namespace SOLID.I
 
         public DateTime Fecha { get; set; }
         public int Numero { get; set; }
+
         public abstract void Imprimir();
-        public abstract void EnviarPorEmail();
+        //public abstract void Imprimir();
+        //public abstract void EnviarPorEmail();
     }
 }
