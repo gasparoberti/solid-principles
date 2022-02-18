@@ -1,0 +1,5 @@
+﻿Principio de innversión de dependencias:
+
+Se invierten las dependencias para lograr un mejor acoplamiento y mejorar la cohesión.
+Se utiliza para desacoplar módulos de sowtware.
+Las clases de alto nivel no deberían depender de las clases de bajo nivel. Ambas deberían depender de las abstracciones.
