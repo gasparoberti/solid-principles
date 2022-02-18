@@ -1,0 +1,7 @@
+﻿Principio de sustitución de Liskov:
+
+Se basa en tratar de mantener la jerarquía de las clases de tal manera que el sentido de ellas sea el correcto. Es una extensión del principio openclosed. Una clase derivada puede ser reemplazada por cualquier otra que use su clase base sin alterar el correcto funcionamiento de un programa.
+Una clase base no debe remover ni modificar comportamientos de la clase base, no debe conocer a los subtipos.
+Si un subtipo hace algo que el cliente del supertipo no espera es una violación al principio.
+
+En la primera implementación en la clase remito se viola el principio de sustitución de liskov porque está modificando el comportamiento de una función de la clase padre (sobreescribe el metodo descripción, que no esá mal, pero además lo modifica agregando una funcionalidad que el padre desconoce). Esto significa que no corresponde a la abstracción de documento.
