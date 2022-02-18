@@ -1,3 +1,9 @@
 ﻿Principio de Open Closed:
 
 Se centra en mantener el bajo acoplamiento. Las clases deberían estar abiertas para extender y cerradas para modificar. El comportamiento de una entidad debe poder ser alterado sin tener que modificar su código fuente (a menos que haya un bug).
+
+Si surge la necesidad de crear un nuevo tipo de documento contable aparte de modificar la clase tipodocumentocontable debemos modificar la clase documentocontable (corregir el switch para que contemple el nuevo tipo - abrir para modificar -) y esto no nos permite extenderlo de la forma en que está programada.
+Para esto hacemos abstracta la clase documentocontable y eliminamos el tipo para que despues sea definida por la jerarquía. También se hace abstracta la descripción para que cada tipo implemente esta función mostrando lo que considere necesario.
+Por último creamos las clases factura, notacrédito y notadébito que hereden de documentocontable e implementen la descripción.
+
+La clave está en no modificar la clase base y en usar la herencia para implementar clases que hereden de la base y sobreescriban sus métodos abstractos.
