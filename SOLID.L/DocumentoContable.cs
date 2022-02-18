@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SOLID.L
 {
-    public class Documento
+    public class DocumentoContable
     {
         protected string _sigla;
 
-        public Documento(DateTime fecha, int numero)
+        public DocumentoContable(DateTime fecha, int numero)
         {
             Fecha = fecha;
             Numero = numero;

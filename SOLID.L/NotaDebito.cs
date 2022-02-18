@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace SOLID.L
 {
-    public class Factura : DocumentoContable
+    public class NotaDebito : DocumentoContable
     {
-        public Factura(DateTime fecha, int numero) : base(fecha, numero)
+        public NotaDebito(DateTime fecha, int numero) : base(fecha, numero)
         {
-            _sigla = "FC";
+            _sigla = "ND";
         }
     }
 }

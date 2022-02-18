@@ -5,3 +5,11 @@ Una clase base no debe remover ni modificar comportamientos de la clase base, no
 Si un subtipo hace algo que el cliente del supertipo no espera es una violación al principio.
 
 En la primera implementación en la clase remito se viola el principio de sustitución de liskov porque está modificando el comportamiento de una función de la clase padre (sobreescribe el metodo descripción, que no esá mal, pero además lo modifica agregando una funcionalidad que el padre desconoce). Esto significa que no corresponde a la abstracción de documento.
+
+
+Como por este principio, donde hay una clase abstracta o de alto nivel es posible utilizar esa clase de alto nivel en donde se necesite cualquier clase derivada de esta clase de alto nivel.	Es decir que Factura y NotaCredito podrían ser definidos directamente como un Documento.
+//NotaCredito notaCredito = new NotaCredito(DateTime.Now, 77575);
+Documento notaCredito = new NotaCredito(DateTime.Now, 77575);
+Deberían andar los dos de manera correcta
+
+Para que la jerarquía sea mas específica se cambío el nombre de la clase Documento a DocumentoContable
