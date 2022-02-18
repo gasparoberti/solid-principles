@@ -1,0 +1,3 @@
+﻿Principio de segregación de interfaces:
+
+Los clientes no deben estar forzados a implementar interfaces que no usan. Se relaciona con la cohesión de las aplicaciones. 
