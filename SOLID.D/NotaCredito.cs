@@ -13,6 +13,11 @@ namespace SOLID.D
             _sigla = "NC";
         }
 
+        public override void Imprimir()
+        {
+            Console.WriteLine($"Imprimiendo nota de crédito {Numero} del {Fecha.ToShortDateString()} por un importe de $ {Importe}");
+        }
+
         public override double Total()
         {
             return Importe * 1.21 * -1; //ejemplo

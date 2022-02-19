@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.D
 {
-    public abstract class DocumentoContable
+    public abstract class DocumentoContable : IImprimible
     {
         protected string _sigla;
 
@@ -20,6 +20,8 @@ namespace SOLID.D
         public DateTime Fecha { get; set; }
         public double Importe { get; set; }
         public int Numero { get; set; }
+
+        public abstract void Imprimir();
 
         public abstract double Total();
     }

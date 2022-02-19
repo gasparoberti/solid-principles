@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SOLID.D
 {
-    public class ReciboSueldo
+    public class ReciboSueldo : IImprimible
     {
         public ReciboSueldo(double legajo, int total)
         {
@@ -16,5 +16,10 @@ namespace SOLID.D
 
         public double Legajo { get; set; }
         public int Total { get; set; }
+
+        public void Imprimir()
+        {
+            Console.WriteLine($"Imprimiendo recibo de sueldo {Legajo} por un importe de $ {Total}");
+        }
     }
 }

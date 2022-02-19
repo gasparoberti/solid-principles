@@ -3,3 +3,9 @@
 Se invierten las dependencias para lograr un mejor acoplamiento y mejorar la cohesión.
 Se utiliza para desacoplar módulos de sowtware.
 Las clases de alto nivel no deberían depender de las clases de bajo nivel. Ambas deberían depender de las abstracciones.
+
+Al crear una abstracción (la interfazIImprimible) y hacer documentocontable abstracto y que su función Imprimir sea abstracto y que a su vez sea implementado por cada uno de sus clases hijos estoy invirtiendo la dependencia. Ahora la responsabilidad de imprimir es de la factura y lo hace a través de una interrfaz que define el método imprimir para que todos los documentos tengan la misma interfaz al momento de imprimir.
+
+Si quiero agregar un nuevo tipo de documento como cobranza debo crearlo, extender de IImprimible, implementar Imprimir() y listo, ya puedo imprimirlo sin que haya que hacer ninguna modificación en la impresora.
+
+La interfaz tiene como ventaja que puede agrupar en una lista que agrupe componenes de diferentes tipos pero que sean del mismo tipo de abstracción.
